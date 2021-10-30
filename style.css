@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family:fantasy;
+}
+
+#navbar{
+    height: 15%;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar ul,ol{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0px
+}
+
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    object-fit: cover;
+}
+
+ul{
+    position: absolute;
+    left: 5%;
+}
+
+ol{
+    position: absolute;
+    right: 5%;
+}
+
+li{
+    margin: 0px 60px;
+    font-size: 23px;
+}
+
+li a{
+    text-decoration: none;
+    color: #e2e2e2;
+    transition:0.5s;
+}
+
+li a:hover{
+    color: rgb(255, 2, 2);
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 30px);
+}
+
+
+#logo img{
+    height: 80px;
+    width: 6rem;
+    transform: translateX(-10px);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+
+#logo img:hover{
+    transform: translateX(-10px) translateY(-6px);
+}
+
+
+#contentsection{
+
+        margin-top: 360px;
+        margin-left: 22px;
+        height: 400px;
+        width: 750px;
+        position: absolute,down;
+        left: 5%;
+        top: calc(40% - 200px);
+}
+
+
+
+#contentsection h2 {
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: #ff0b0b;
+    font-weight: 900;
+    
+
+}
+
+#contentsection p{
+    padding: 0 0 0 20px;
+    color: azure;
+}
+
+#contentsection button{
+
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height:1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#contentsection button:hover, button:focus{
+    background-color:rgb(145, 2, 2);
+}
+
+#contentsection button:active{
+    background:rgb(100, 0, 0);
+}
