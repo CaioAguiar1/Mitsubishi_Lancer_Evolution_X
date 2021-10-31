@@ -23,6 +23,8 @@
 
 <h2>Status do projeto: finalizado 😎✔️</h2>
 
+Site: https://mitsubishievox.netlify.app/
+
 Feito com 💜 por mim caio 👋
 veja meu [linkedin](https://www.linkedin.com/in/caio-aguiar-04b015193/)
 
