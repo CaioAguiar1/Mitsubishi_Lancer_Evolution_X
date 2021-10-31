@@ -14,8 +14,8 @@
 
 > Principais tecnologias utilizadas por mim:
  <ul>
-  <li>[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)</li>
-  <li>[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)</li>
+  <li>HTML</li>
+  <li>CSS</li>
 </ul>
 
 ![Evo X](https://user-images.githubusercontent.com/88971985/139559456-837ee9b4-4031-40fb-af43-f980c1afd54e.png)
